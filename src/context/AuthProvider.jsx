@@ -13,8 +13,6 @@ const AuthProvider = ({ children }) => {
         const {employees} = getLocalStorage()
         setUserData(employees)
     }, [])
-    
-    
 
     return (
         <div>
